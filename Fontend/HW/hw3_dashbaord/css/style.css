@@ -16,7 +16,7 @@
     width: 600px;
     padding: 40px;
     
-    box-shadow: rgba(0,0,10.50) 0px 1px 2px;
+    box-shadow: rgb(147, 147, 153) 0px 1px 2px;
     border-radius: 5px;
                                                                           
 }
@@ -27,7 +27,7 @@
 }
 
 .dashboard .revenue{
-    box-shadow: rgba(0,0,0.24) 0px 1px 3px;
+    box-shadow: rgb(102, 98, 98) 0px 1px 3px;
     padding: 20px;
     border-radius: 5px;
     /* margin-left: 15px; */
