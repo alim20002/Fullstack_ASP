@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    font-family: you-are;
+}
+
+@font-face {
+    font-family: you-are;
+    src: url(../fonts/WorkSans-SemiBold.ttf);
+  }
+
+.dashboard{
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    padding: 40px;
+    
+    box-shadow: rgba(0,0,10.50) 0px 1px 2px;
+    border-radius: 5px;
+                                                                          
+}
+.dashboard-inner{
+     margin-top: 20px;
+     display: flex;
+     gap: 20px;
+}
+
+.dashboard .revenue{
+    box-shadow: rgba(0,0,0.24) 0px 1px 3px;
+    padding: 20px;
+    border-radius: 5px;
+    /* margin-left: 15px; */
+
+}
+.dashboard .revenue i.icon-top{
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 50px;    
+}
+
+.dashboard .revenue i#icon-money{
+    color: #65A78E;
+    background-color: #D2E6E3;
+}
+
+.dashboard .revenue i#icon-cal{
+    color: #27B8EB;
+    background-color: #C6E7F4;
+}
+
+.dashboard .revenue i#icon-chat{
+    color: #5A4FC2;
+    background-color: #E1DFF4;
+}
+ .heading{
+     margin-bottom: 20px; 
+}
+.dashboard .revenue h1{
+    margin-top: 15px;
+}
+
+.dashboard .revenue p{
+    color: #6f6f6f;
+}
+.dashboard .revenue  p#total-revenue{
+color:#6f6f6f;
+margin-bottom: 30px;
+  
+    
+}
+.dashboard .revenue i.up-arrow,span{
+    color: #40CEB9;
+}
+.dashboard .revenue .btn-group{
+    margin-top: 10px;
+    
+
+}
+.dashboard .revenue a{
+    border: 1px solid #6f6f6f;
+    text-decoration: none;
+    color: #6f6f6f;
+    padding: 5px;
+    
+    
+}
+.dashboard .revenue i.long-arrow{
+    color: black;
+}
+
